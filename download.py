@@ -21,7 +21,7 @@ def main():
         with open(path + row.get_text(), "wb") as code:
             code.write(file.content)
 
-    #urllib.urlretrieve('http://data.icecat.biz/export/freeurls/supplier_mapping.xml','./pdt')
+#urllib.urlretrieve('http://data.icecat.biz/export/freeurls/supplier_mapping.xml','./pdt')
 
 if __name__ == '__main__':
     main()
